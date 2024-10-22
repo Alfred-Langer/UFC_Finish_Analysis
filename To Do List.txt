@@ -1,0 +1,31 @@
+What am I trying to solve?
+
+
+I want to know what is the likelihood of a Woman finishing her opponent
+based on her previous finish rating. 
+
+Factors to look at after:
+- What is her style (Style/Wrestler/Jiu Jitsu)
+- How many times has her opponent been finished?
+
+
+
+Steps
+
+Pick a past event
+
+Go through each fight
+
+	Retrieve the fighters involved in the fight
+
+	Find their record and finish rate before the event
+	
+		Search the fighter name in Tapology
+
+		Go through each link Tapology and double check that the latest event appears in their record
+		to confirm if they are indeed the right fighter (In case there are fighters with the same name)
+
+		Once confirmed, determine what their finish rate was before the fight.
+
+
+	Determine if they won and finished the fight.
